@@ -22,6 +22,7 @@ if (!$user) {
 
 <body>
     <div class="container">
+        <h2>ユザホーム</h2>
         <p><?= $user['name'] ?> さん</p>
         <a class="btn btn-sm btn-outline-primary" href="logout.php">Sign out</a>
     </div>
